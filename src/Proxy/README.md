@@ -22,4 +22,5 @@ $proxy->registerSourceHandler('xxx',function(){
   yourcode
 }); 
 ```
-2.网段扫描
+2.网段扫描<br>
+目前正在考虑参考ZMAP，只进行第一个SYN，然后等待对方回复SYN-ACK，之后即RST取消连接
