@@ -1,5 +1,8 @@
 PHP Spider
 ===
+### 注意事项
+1.目前只是简陋开发版本。
+2.多进程只能在Linux运行
 ### 依赖安装
 ```shell
 composer require ervin-meng/pspider:dev-master
@@ -53,7 +56,7 @@ $spider->exec(5);
 ### 运行示例
 #### 1.启动爬虫
 ##### 1.1 CLI 模式（目前只支持linux系统）：
-(1) 非守护进程(停留终端)
+(1) 非守护进程方式(停留终端)
 ```shell
 php yourfile.php start 
 ```
