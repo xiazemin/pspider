@@ -1,8 +1,8 @@
 {
-    "name": "ervin-meng/spider",
+    "name": "ervin-meng/pspider",
     "description" : "PHP多进程爬虫",
     "type": "application",
-    "keywords": ["spider"],
+    "keywords": ["spider","process","proxy","parser"],
     "license": "MIT",
     "authors": [
         {
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Spider\\": "Src/"
+            "PSpider\\": "src/"
         }
     }
 }
