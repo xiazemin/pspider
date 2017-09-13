@@ -15,7 +15,7 @@ $proxy->registerSourceHandler(['Ip181','Goubanjia']);
 $proxy->scanFromSource('','ScanProxy');//第二个参数指定进程名，不是false的时候创建子进程并发执行多个source句柄
 ```
 (2)动态注册函数
-第一个参数能像上面方法那样传递数组，只能传递字符串
+第一个参数不能像第一个方式传递数组，只能传递字符串
 ```shell
 $proxy->registerSourceHandler('xxx',function(){
 
