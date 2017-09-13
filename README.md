@@ -1,2 +1,2 @@
-# pspider
-用PHP写的爬虫
+PHP 爬虫
+
