@@ -1,11 +1,11 @@
 PHP Spider
 ===
-#### 依赖安装
+### 依赖安装
 ```shell
 composer require ervin-meng/pspider:dev-master
 ```
 
-#### 代码示例
+### 代码示例
 ```shell
 require_once(__DIR__ . '../../../vendor/autoload.php');
 
@@ -49,4 +49,21 @@ Hook::register('afterCrawl',function($spider){
 },[$spider]);
 
 $spider->exec(5); 
+```
+### 运行示例
+#### 1.启动爬虫
+##### 1.1 CLI 模式（目前只支持linux系统）：
+(1) 非守护进程(停留终端)
+```shell
+php yourfile.php start 
+```
+(2) 守护进程方式(脱离终端)
+```shell
+php yourfile.php start -d
+```
+##### 1.2 CGI 模式：
+在浏览器直接访问该文件，此模式不支持多进程。
+#### 2.停止爬虫
+```shell
+php yourfile.php stop
 ```
