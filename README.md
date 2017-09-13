@@ -1,8 +1,13 @@
 PHP Spider
 ===
 ### 注意事项
-1.目前只是简陋开发版本。<br>
-2.多进程只能在Linux运行
+1.目前只是简陋开发版本,还有很多功能代码未完善。<br>
+2.多进程只能在Linux运行。<br>
+3.需要Redis扩展,目前所有存储容器的实现都依赖于Redis，此点会慢慢改进。<br>
+### 功能模块
+1.支持代理。详细说明请点击[这里](https://github.com/ervin-meng/pspider/blob/master/src/Proxy/README.md)<br>
+2.支持DOM操作,xpath css选择器(未完善)。详细说明请点击[这里](https://github.com/ervin-meng/pspider/blob/master/src/Parsers/README.md)<br>
+3.支持多进程，守护进程方式，进程启动、停止、重启、平滑重启（未完善）,进程意外中断，会重启子进程继续爬取。详细说明请点击[这里](https://github.com/ervin-meng/pspider/blob/master/src/Multiprocess/README.md)<br>
 ### 依赖安装
 ```shell
 composer require ervin-meng/pspider:dev-master
