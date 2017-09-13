@@ -1,6 +1,6 @@
-# Proxy
 ## 扫描代理方式<br>
-1.抓取代理网站（不管以下面哪种方式，最后执行完都要返回IP二维数组，其中子数组包含两个元素url和https标识）<br>
+### 1.抓取代理网站
+不管以下面哪种方式，最后执行完都要返回IP二维数组，其中子数组包含两个元素url和https标识 <br>
 实现方式：<br>
 (1)创建类放到Source目录下
 此类一定要实现handler方法
@@ -22,5 +22,5 @@ $proxy->registerSourceHandler('xxx',function(){
   yourcode
 }); 
 ```
-2.网段扫描<br>
+### 2.网段扫描<br>
 目前正在考虑参考ZMAP，只进行第一个SYN，然后等待对方回复SYN-ACK，之后即RST取消连接
