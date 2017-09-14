@@ -1,19 +1,19 @@
 <?php
-    namespace Spider;
+    namespace PSpider;
     
     use GuzzleHttp;
     
-    use Spider\Proxy\Proxy;
-    use Spider\Multiprocess\Process;
-    use Spider\Container\Collection;
-    use Spider\Container\LineList;
-    use Spider\Parsers\HtmlParser;
+    use PSpider\Proxy\Proxy;
+    use PSpider\Multiprocess\Process;
+    use PSpider\Container\Collection;
+    use PSpider\Container\LineList;
+    use PSpider\Parsers\HtmlParser;
     
-    use Spider\Utils\Format;
-    use Spider\Utils\Hook;
-    use Spider\Utils\UserAgent;
+    use PSpider\Utils\Format;
+    use PSpider\Utils\Hook;
+    use PSpider\Utils\UserAgent;
     
-    use Spider\Exception\SpiderException;
+    use PSpider\Exception\SpiderException;
 
     class Spider 
     {
@@ -148,7 +148,6 @@
             if ($this->max > 0 && $this->_crawlCollection->count() >= $this->max) 
             {
                 throw new SpiderException("[PID:{$this->getWorkerId()}] The crawl set more than max");
-                exit(1);
             }
 
             do
