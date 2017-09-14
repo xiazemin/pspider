@@ -30,7 +30,7 @@
  * 当设置多机房模式时，写操作的执行结果以本地机房redis执行结果为准，出错的机房仅记录日志作监控
  * **********************************************************/
 
-namespace Spider\Component;
+namespace PSpider\Component;
 
 class Redis
 {

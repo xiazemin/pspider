@@ -1,7 +1,7 @@
 <?php 
-    namespace Spider\Container;
+    namespace PSpider\Container;
     
-    use Spider\Component\Redis;
+    use PSpider\Component\Redis;
     
     class LineList 
     {

@@ -1,6 +1,7 @@
 <?php
-    namespace Spider\Queues;
-    use Spider\Exception\SpiderException;
+    namespace PSpider\Queues;
+    
+    use PSpider\Exception\SpiderException;
     
     /**
      * 设置非阻塞方式可以避免读阻塞

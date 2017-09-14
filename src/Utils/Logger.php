@@ -18,7 +18,7 @@
      * '/data/log/trade/net_connet_error.20151020.txt' //日期部分按实际生成日期
      * '/data/log/trade/net_connet_except.20151020.txt' //日期部分按实际生成日期
      */
-    namespace Spider\Utils;
+    namespace PSpider\Utils;
 
     class Logger
     {

@@ -1,5 +1,5 @@
 <?php
-    namespace Spider\Parsers\Adapters;
+    namespace PSpider\Parsers\Adapters;
 
     class CssSelecter
     {

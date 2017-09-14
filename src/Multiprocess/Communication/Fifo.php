@@ -1,6 +1,7 @@
 <?php
-    namespace Spider\Queues;
-    use Spider\Exception\SpiderException;
+    namespace PSpider\Queues;
+    
+    use PSpider\Exception\SpiderException;
     
     /**
      * 如果管道另一端没有调用写 会造成读阻塞 设置非阻塞也不好使 stream_set_blocking($fd,0)

@@ -1,8 +1,8 @@
 <?php
-    namespace Spider\Proxy\Source;
+    namespace PSpider\Proxy\Source;
     
     use GuzzleHttp\Client;
-    use Spider\Parsers\HtmlParser;
+    use PSpider\Parsers\HtmlParser;
 
     class Ip181
     {        

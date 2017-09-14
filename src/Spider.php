@@ -1,5 +1,5 @@
 <?php
-    namespace PSpider;
+    namespace Spider;
     
     use GuzzleHttp;
     

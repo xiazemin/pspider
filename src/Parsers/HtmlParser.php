@@ -1,9 +1,9 @@
 <?php
-    namespace Spider\Parsers;
+    namespace PSpider\Parsers;
     
     use DOMDocument;
     use DOMXPath;
-    use Spider\Parsers\Adapters\CssSelecter;
+    use PSpider\Parsers\Adapters\CssSelecter;
 
     class HtmlParser
     {

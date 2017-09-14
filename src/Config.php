@@ -1,8 +1,6 @@
 <?php 
     return array(
-        
-        'logfile'=>'',
-        
+
         'redis' => array( 
             array(
                 'master' => '127.0.0.1',

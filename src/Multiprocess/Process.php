@@ -1,7 +1,7 @@
 <?php
-    namespace Spider\Multiprocess;
+    namespace PSpider\Multiprocess;
     
-    use Spider\Utils\Hook;
+    use PSpider\Utils\Hook;
         
     class Process
     {

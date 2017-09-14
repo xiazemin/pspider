@@ -1,5 +1,5 @@
 <?php
-    namespace Spider\Utils;
+    namespace PSpider\Utils;
 
     class Format
     {

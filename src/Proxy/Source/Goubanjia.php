@@ -1,11 +1,11 @@
 <?php
-    namespace Spider\Proxy\Source;
+    namespace PSpider\Proxy\Source;
     
     use GuzzleHttp\Client;
     use GuzzleHttp\Cookie\CookieJar;
     
-    use Spider\Utils\UserAgent;
-    use Spider\Parsers\HtmlParser;
+    use PSpider\Utils\UserAgent;
+    use PSpider\Parsers\HtmlParser;
     
     class Goubanjia
     {

@@ -1,5 +1,5 @@
 <?php
-namespace Spider\Exception;
+namespace PSpider\Exception;
 
 class SpiderException extends \Exception
 {

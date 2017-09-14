@@ -1,10 +1,10 @@
 <?php
-    namespace Spider\Proxy;
+    namespace PSpider\Proxy;
     
     use GuzzleHttp\Client;
     
-    use Spider\Multiprocess\Process;
-    use Spider\Container\Collection;
+    use PSpider\Multiprocess\Process;
+    use PSpider\Container\Collection;
     
     Class Proxy
     {
