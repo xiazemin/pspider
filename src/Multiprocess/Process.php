@@ -2,14 +2,7 @@
     namespace Spider\Multiprocess;
     
     use Spider\Utils\Hook;
-    
-    /**
-     * 学习多进程的一个简单版本
-     * 问题1：子进程异常退出 中断续运行
-     * 方案1：加入进程状态控制
-     * 
-     */
-    
+        
     class Process
     {
         static protected $_STATUS = 0;  //0 初始值 1 开始 2 运行中 3 结束
