@@ -1,5 +1,16 @@
 ## 注意事项<br>
 目前CSS选择器只支持查找id,class,element，后面会慢慢补充。<br>
+## 文档载入<br>
+### 1.HTML文件(暂不支持URL)
+```shell
+$file = '/path/to/yourfile.ext';
+$parser = HtmlParser::load($file);
+```
+### 2.HTML字符串
+```shell
+$html = '<html>....html code...</html>';
+$parser = HtmlParser::load($html);
+```
 ## 查找方式<br>
 ### 1.XPath
 ```shell
