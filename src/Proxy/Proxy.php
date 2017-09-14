@@ -122,9 +122,7 @@
                 }
             }
             else if(isset($this->_source[$source]))
-            {
-                file_put_contents('scan.log',date('Y-m-d H:i:s')." [SITE:{$source}]".PHP_EOL,FILE_APPEND);
-                
+            {                
                 $ips = call_user_func_array($this->_source[$source],[]);
 
                 if(!empty($ips))
