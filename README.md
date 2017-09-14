@@ -72,7 +72,7 @@ php yourfile.php start
 php yourfile.php start -d
 ```
 ##### 1.2 CGI 模式：
-在浏览器直接访问该文件，此模式不支持多进程。
+此模式不支持多进程。
 #### 2.停止爬虫
 ```shell
 php yourfile.php stop
