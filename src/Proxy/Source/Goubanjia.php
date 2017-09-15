@@ -49,6 +49,11 @@
             {
                 $arr = explode(PHP_EOL,$node->text());
 
+                if(!is_array($arr) || count($arr)<3)
+                {
+                    continue;
+                }
+                
                 $level = trim($arr[1]);
                 $ip = trim($arr[0]);
                 $https = stristr($arr[2],'s')?true:false;
@@ -65,7 +70,7 @@
                     $ips [] = ['ip'=>$ip,'https'=>$https];
                 }
             }
-
+            
             return $ips;
         }
     }
